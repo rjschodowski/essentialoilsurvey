@@ -1,6 +1,14 @@
 /* GLOBAL STYLES*/
 
+/* CSS HEX */
+--pistachio: #8ed081ff;
+--dim-gray: #656565ff;
+--flame: #de541eff;
+--pink-lavender: #d7b9d5ff;
+--orchid-pink: #f4cae0ff;
+
 body {
   font-family: "georgia", serif;
+  font-weight: 400;
   line-height: 1.5;
 }
