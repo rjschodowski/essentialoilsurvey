@@ -16,7 +16,15 @@
 		<form id="survey-form">
 			<div class="form-field">
 				<label id="name-label" for="name">Name</label>
-				<input type="text">
+				<input type="text" name="name" id="name" placeholder="Enter your full name" required>
+			</div>
+			<div class="form-field">
+				<label id="email-label" for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="Enter your email address" required>
+			</div>
+			<div class="form-field">
+				<label id="number-label" for="number">Age<span>(optional)</span></label>
+				<input type="number" name="age" id="number" min="13" max="120" placeholder="Age">
 			</div>
 		</form>
 	</div>	
