@@ -17,8 +17,44 @@ body {
   background-color: #8ed081ff;
 }
 
+header {
+	margin-top: 2.5em;
+}
+
 h1 {
   font-size: 2.5rem;
   font-weight: 400;
+  text-align: center;
 }
 
+#description {
+	margin-bottom: 2.5em;
+}
+
+form {
+	background: #d7b9d5ff;
+	padding: 2.5em;
+	border-radius: 10px;
+}
+
+ .field-styling, select {
+ 	height: 2em;
+	width: 100%;
+}
+
+#comment {
+	width: 100%;
+}
+
+#submit {
+	width: 100%;
+}
+
+/* FLEX CONTAINER*/
+
+#wrapper {
+	margin: 0 10em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
