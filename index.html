@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Essential Oil Survey Form</title>
+	<link href="css/html_reset.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1 id="title">Essential Oil Survey</h1>
+			<p id="description">We appreciate your feedback on your opinions and preferences of essential oils.</p>
+		</header>
+		<form id="survey-form">
+			<div class="form-field">
+				<label id="name-label" for="name">Name</label>
+				<input type="text" name="name" id="name" class="field-styling" placeholder="Enter your full name" required>
+			</div>
+			<div class="form-field">
+				<label id="email-label" for="email">Email</label>
+				<input type="email" name="email" id="email" class="field-styling" placeholder="Enter your email address" required>
+			</div>
+			<div class="form-field">
+				<label id="number-label" for="number">Age<span>(optional)</span></label>
+				<input type="number" name="age" id="number" class="field-styling" min="13" max="120" placeholder="Age">
+			</div>
+			<div class="form-field">
+				<p>Which option best describes your current level of interest with essential oils?</p>
+				<select name="interest" id="dropdown" class="field-styling" required>
+					<option value="Regularly use and/or promote essential oil use to others">Regularly use and/or promote essential oil use to others</option>
+					<option value="Occasionally use and/or talk about essential oils with others">Occasionally use and/or talk about essential oils with others</option>
+					<option value="Considering trying essential oils sometime in the future">Considering trying essential oils sometime in the future</option>
+					<option value="Unsure">Unsure</option>
+					<option value="Definitely not interested">Definitely not interested</option>
+				</select>
+			</div>
+			<div class="form-field">
+				<p>Are you familiar with Young Living Essential Oils?</p>
+				<label>
+					<input name="heard-of-yl" value="yes" type="radio">Yes
+				</label>
+				<label>
+					<input name="heard-of-yl" value="no" type="radio">No
+				</label>
+			</div>
+			<div class="form-field">
+				<p>If you are not familiar with Young Living Essential Oils or essential oils in general and would like to learn more about either of them, what information would you most be interested in receiving?<span>(Check all that apply)</span></p>
+				<label>
+					<input name="information" value="general information" type="checkbox">General information related to essential oils
+				</label>
+				<label>
+					<input name="information" value="specific information related to specific essential oils" type="checkbox">Specific information related to specific essential oils
+				</label>
+				<label>
+					<input name="information" value="General information related to Young Living products" type="checkbox">General information related to Young Living products
+				</label>
+				<label>
+					<input name="information" value="specific information related to Young Living products" type="checkbox">Specific information related to Young Living products
+				</label>
+			</div>
+			<div class="form-field">
+				<p>If you would like to provide any further input or ask a question, please leave your thoughts below:</p>
+				<textarea name="comment" id="comment" placeholder="Add your questions and comments here..."></textarea>
+			</div>
+			<div class="form-field">
+				<button type="submit" id="submit">Submit</button>
+			</div>
+		</form>
+	</div>	
+</body>
+</html>
 
