@@ -17,6 +17,12 @@ body {
   background-color: #8ed081ff;
 }
 
+#wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 5em;
+}
+
 header {
 	margin-top: 2.5em;
 }
@@ -29,6 +35,7 @@ h1 {
 
 #description {
 	margin-bottom: 2.5em;
+	 text-align: center;
 }
 
 form {
@@ -53,13 +60,4 @@ form {
 	width: 100%;
 }
 
-/* FLEX CONTAINER*/
 
-#wrapper {
-	max-width: 900px;
-	margin: 0 auto;
-	padding: 0 5em	;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
