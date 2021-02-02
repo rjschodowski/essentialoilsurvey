@@ -35,7 +35,7 @@ h1 {
 
 #description {
 	margin-bottom: 2.5em;
-	 text-align: center;
+	text-align: center;
 }
 
 form {
@@ -61,3 +61,10 @@ form {
 }
 
 
+/* FLEX CONTAINER*/
+
+label {
+	display: flex;
+	align-items: center;
+    margin-bottom: 0.25em;
+}
