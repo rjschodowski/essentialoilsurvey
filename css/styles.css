@@ -2,10 +2,11 @@
 
 /* COLOR PALETTE
 --pistachio: #8ed081ff;
---dark gray: #8ed081ff;
+--dim-gray: #656565ff;
 --flame: #de541eff;
 --pink-lavender: #d7b9d5ff;
---orchid-pink: #f4cae0ff; 
+--orchid-pink: #f4cae0ff;
+--dark byzantium: #4e2d4b;
 */
 
 html {
@@ -18,7 +19,7 @@ html {
 
 body {
   font-family: "georgia", serif;
-  color: #333333;
+  color: #683c64;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
@@ -30,17 +31,19 @@ header {
 }
 
 h1 {
+  color: #4e2d4b;
   font-size: 2.5rem;
   font-weight: 400;
   text-align: center;
 }
 
 #description {
+	color: #4e2d4b;
 	margin-bottom: 2.5em;
 }
 
 form {
-	background: #d7b9d5ff;
+	background: #f4cae0ff;
 	padding: 2.5em;
 	border-radius: 10px;
 }
@@ -63,8 +66,31 @@ input, select, textarea, button {
     line-height: inherit;
 }
 
+.checkbox-label, .radio-label {
+	min-height: 2em;
+}
+
+ .input-radio, .input-checkbox {
+	margin-right: 10px;
+	min-height: 1.25rem;
+	min-width: 1.25rem;
+}
+
 textarea, button {
 	width: 100%;
+}
+
+textarea {
+	border-radius: 5px;
+	border-style: none;
+	min-height: 120px;
+}
+
+button {
+	padding: 0.5em;
+	background: #fff;
+	border-radius: 5px;
+	border-style: none;
 }
 
 
