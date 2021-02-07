@@ -45,7 +45,7 @@ form {
 	border-radius: 10px;
 }
 
-.field-styling, select {
+.field-styling {
  	height: 2em;
 	width: 100%;
 	padding: 1.25em;
@@ -53,13 +53,21 @@ form {
 	border-radius: 5px;
 }
 
-#comment {
+.form-field, .form-field > p {
+	margin-bottom: 1.25em;
+}
+
+input, select, textarea, button {
+	font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea, button {
 	width: 100%;
 }
 
-#submit {
-	width: 100%;
-}
+
 
 /* FLEX CONTAINER*/
 
