@@ -109,3 +109,23 @@ button {
 .radio-label, .checkbox-label {
 	display: flex;
 }
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width: 787px) {
+	#wrapper {
+		padding: 0;
+	}
+
+	header {
+		padding: 0 0.5em;
+	}
+
+	#description {
+		text-align: center;
+	}
+
+	form {
+		padding: 0.5em;
+	}
+}
