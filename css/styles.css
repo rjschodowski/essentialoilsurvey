@@ -93,6 +93,10 @@ button {
 	border-style: none;
 }
 
+button:hover {
+	background-color: #656565ff;
+}
+
 
 
 /* FLEX CONTAINER*/
