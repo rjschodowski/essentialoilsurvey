@@ -1,13 +1,5 @@
 /* GLOBAL STYLES*/
 
-/* COLOR PALETTE
---pistachio: #8ed081ff;
---dim-gray: #656565ff;
---flame: #de541eff;
---pink-lavender: #d7b9d5ff;
---orchid-pink: #f4cae0ff;
---dark byzantium: #4e2d4b;
-*/
 
 html {
 	box-sizing: border-box;
@@ -19,11 +11,11 @@ html {
 
 body {
   font-family: "georgia", serif;
-  color: #683c64;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  background-color: #8ed081ff;
+  background-color: #DBEAD6;
 }
 
 header {
@@ -33,17 +25,19 @@ header {
 h1 {
   color: #4e2d4b;
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 700;
   text-align: center;
 }
 
 #description {
 	color: #4e2d4b;
-	margin-bottom: 2.5em;
+	/*margin-top: 0.5em;*/
+	margin-bottom: 5em;
+	font-size: 16px;
 }
 
 form {
-	background: #f4cae0ff;
+	background: #B86592;
 	padding: 2.5em;
 	border-radius: 10px;
 }
